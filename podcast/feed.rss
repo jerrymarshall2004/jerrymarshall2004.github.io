@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>The Jerry Marshall Podcast</title>
+    <link>https://jerrymarshall.xyz/podcast</link>
+    <description>Jerry Marshall discusses his opinions and thoughts on various topics that have no relation to each other whatsoever. </description>
+    <language>en-us</language>
+    <managingEditor>jerrymarshall2004@gmail.com</managingEditor>
+    <webMaster>jerrymarshall2004@gmail.com</webMaster>
+    <copyright>2021</copyright>
+    <item>
+      <title>Pilot</title>
+      <pubDate>Wed, 17 Feb 2021 16:44:49 -0500</pubDate>
+      <author>jerrymarshall2004@gmail.com</author>
+      <category>Entertainment</category>
+      <description><![CDATA[]]></description>
+    </item>
+  </channel>
+</rss>
