@@ -10,11 +10,13 @@
     <webMaster>jerrymarshall2004@gmail.com</webMaster>
     <copyright>2021</copyright>
     <item>
-      <title>Pilot</title>
+      <title>Test</title>
       <pubDate>Wed, 17 Feb 2021 16:44:49 -0500</pubDate>
+      <link>https://jerrymarshall.xyz/Podcasts/testPodcast.mp3</link>
+      <guid isPermaLink="true">https://jerrymarshall.xyz/Podcasts/testPodcast.mp3</guid>
       <author>jerrymarshall2004@gmail.com</author>
       <category>Entertainment</category>
-      <description><![CDATA[]]></description>
+      <description><![CDATA[Jerry Marshall tests his RSS Feed]]></description>
     </item>
   </channel>
 </rss>
