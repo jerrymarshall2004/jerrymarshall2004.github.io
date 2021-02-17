@@ -22,5 +22,5 @@
         type="audio/mpeg"
       />
       <itunes:episodeType>trailer<itunes:episodeType>
-
+    </item>
   </channel>
