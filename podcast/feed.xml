@@ -1,22 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <generator>RSS Builder by B!Soft</generator>
     <title>The Jerry Marshall Podcast</title>
-    <link>https://jerrymarshall.xyz/podcast</link>
-    <description>Jerry Marshall discusses his opinions and thoughts on various topics that have no relation to each other whatsoever. </description>
-    <language>en-us</language>
-    <managingEditor>jerrymarshall2004@gmail.com</managingEditor>
-    <webMaster>jerrymarshall2004@gmail.com</webMaster>
-    <copyright>2021</copyright>
+    <itunes:author>Jerry Marshall</itunes:author>
+    <itunes:owner>
+      <itunes:name>Jerry Marshall</itunes:name>
+      <itunes:email>jerrymarshall2004@gmail.com</itunes:email>
+    </itunes:owner>
+    <copyright>&#169; 2021 Jerry Marshall</copyright>
+    <description>Jerry Marshall discusses his opinions and thoughts on various topics that have no relation to each other whatsoever.</description>
+    <link>http://www.jerrymarshall.xyyz/</link>
+    <itunes:image href=""/>
+    <itunes:category text="Entertainment News"/>
+    <itunes:explicit>true</itunes:explicit>
+    <itunes:type>serial</itunes:type>
     <item>
-      <title>Test</title>
-      <pubDate>Wed, 17 Feb 2021 16:44:49 -0500</pubDate>
-      <link>https://jerrymarshall.xyz/Podcasts/testPodcast.mp3</link>
-      <guid isPermaLink="true">https://jerrymarshall.xyz/Podcasts/testPodcast.mp3</guid>
-      <author>jerrymarshall2004@gmail.com</author>
-      <category>Entertainment</category>
-      <description><![CDATA[Jerry Marshall tests his RSS Feed]]></description>
-    </item>
+      <title>Pilot</title>
+      <enclosure
+        url="https://jerrymarshall.xyz/Podcasts/Pilot.mp3" 
+        length="492896"
+        type="audio/mpeg"
+      />
+      <itunes:episodeType>trailer<itunes:episodeType>
+
   </channel>
-</rss>
