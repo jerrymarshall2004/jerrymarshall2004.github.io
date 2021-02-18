@@ -3,6 +3,7 @@
   <channel>
     <title>The Jerry Marshall Podcast</title>
     <author>author@w3schools.com</author>
+    <language>en-us</language>
     <itunes:author>Jerry Marshall</itunes:author>
     <itunes:owner>
       <itunes:name>Jerry Marshall</itunes:name>
@@ -14,7 +15,9 @@
     <itunes:image
       href="https://jerrymarshall.xyz/podcast/Artwork.png"
     />
-    <itunes:category text="Entertainment News"/>
+    <itunes:category text="Entertainment News">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
     <itunes:explicit>true</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <item>
