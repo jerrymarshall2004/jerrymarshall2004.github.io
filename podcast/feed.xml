@@ -15,9 +15,8 @@
     <itunes:image
       href="https://jerrymarshall.xyz/podcast/Artwork.png"
     />
-    <itunes:category text="Entertainment News">
-      <itunes:category text="Tech News"/>
-    </itunes:category>
+    <itunes:category text="Entertainment News"/>
+    <category>Entertainment News</category>
     <itunes:explicit>true</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <item>
