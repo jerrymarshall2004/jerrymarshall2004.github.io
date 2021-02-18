@@ -10,7 +10,9 @@
     <copyright>&#169; 2021 Jerry Marshall</copyright>
     <description>Jerry Marshall discusses his opinions and thoughts on various topics that have no relation to each other whatsoever.</description>
     <link>http://www.jerrymarshall.xyz/</link>
-    <itunes:image href="https://jerrymarshall.xyz/podcast/Artwork.png"/>
+    <itunes:image
+      href="https://jerrymarshall.xyz/podcast/Artwork.png"
+    />
     <itunes:category text="Entertainment News"/>
     <itunes:explicit>true</itunes:explicit>
     <itunes:type>serial</itunes:type>
