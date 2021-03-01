@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Jerry Marshall Podcast</title>
+    <author>jerrymarshall2004@gmail.com</author>
+    <language>en-us</language>
+    <itunes:author>Jerry Marshall</itunes:author>
+    <itunes:owner>
+      <itunes:name>Jerry Marshall</itunes:name>
+      <itunes:email>jerrymarshall2004@gmail.com</itunes:email>
+    </itunes:owner>
+    <copyright>&#169; 2021 Jerry Marshall</copyright>
+    <description>Jerry Marshall discusses his opinions and thoughts on various topics that have no relation to each other whatsoever.</description>
+    <link>http://www.jerrymarshall.xyz/</link>
+    <itunes:image
+      href="https://jerrymarshall.xyz/podcast/Artwork.png"
+    />
+    <itunes:category text="News">
+      <itunes:category text="Entertainment News"/>
+    </itunes:category>
+    <category>Entertainment News</category>
+    <itunes:explicit>true</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <item>
+      <title>Pilot</title>
+      <enclosure
+        url="https://jerrymarshall.xyz/Podcasts/Pilot.mp3" 
+        length="492896"
+        type="audio/mpeg"
+      />
+      <itunes:episodeType>trailer</itunes:episodeType>
+      <guid>https://jerrymarshall.xyz/Podcasts/PilotSpotify</guid>
+      <pubDate>Wed, 17 Feb 2021 20:00:00
+      GMT</pubDate>
+    </item>
+  </channel>
+</rss>
