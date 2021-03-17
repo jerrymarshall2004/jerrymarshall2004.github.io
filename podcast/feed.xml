@@ -32,5 +32,16 @@
       <guid>https://jerrymarshall.xyz/Podcasts/Pilot.mp3</guid>
       <pubDate>Wed, 17 Feb 2021 20:00:00 GMT</pubDate>
     </item>
+    <item>
+      <title>The Ultimate Life Hack</title>
+      <enclosure
+        url="https://jerrymarshall.xyz/Podcasts/Episode1.mp3" 
+        length="24518529"
+        type="audio/mpeg"
+      />
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid>https://jerrymarshall.xyz/Podcasts/Episode1.mp3</guid>
+      <pubDate>Wed, 17 Mar 2021 01:00:00 GMT</pubDate>
+    </item>
   </channel>
 </rss>
