@@ -7,6 +7,10 @@
     --blue2: #122E40;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     border: 0;
@@ -178,9 +182,29 @@ a {
 	font-size: 25;
 }
 
-.contact h2{
+.contact h2 {
 	font-size: 50;
 }
+
+.arrow {
+	animation: arrow;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	border: solid white;
+	margin: 0 0 0 0;
+	border-width: 0 8px 8px 0;
+	display: inline-block;
+	padding: 20px;
+	transform: translate(0%, 100%) rotate(45deg)
+}
+
+@keyframes arrow {
+	from {border-color: rgba(255,255,255,1);}
+	to {border-color: 
+	rgba(255,255,255,.4);}
+}
+
 
 @media only screen and (max-width: 600px) {
 	.header-text h1 {
@@ -247,5 +271,10 @@ a {
 	
 	a {
 		font-size: 20;
+	}
+	
+	.arrow {
+		padding: 15px;
+		border-width: 0 5px 5px 0;
 	}
 }
