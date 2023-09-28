@@ -1,280 +1,177 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Exo:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-:root {
-    --main: #BEBABF;
-    --text: #171C26;
-    --blue1: rgba(0,116,139,1);
-    --blue2: #122E40;
-}
-
-html {
-	scroll-behavior: smooth;
-}
-
-body{
+body {
     margin: 0;
-    border: 0;
+    background-color: black;
 }
 
-.header-image {
-    background-image: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(36,36,61,0.5) 13%, rgba(0,116,139,0.5) 100%), url("images/JERRY-6.jpg");
+.wrapper {
+    height: 100vh;
+    overflow-y:auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+/* Header Paralax Styling START*/
+
+header {
+    position:relative;
+    display: flex;
+    align-items:center;
     height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-	display: block;
-    border: 0;
-	width: 100%;
+    transform-style:preserve-3d;
+    z-index: -1;
 }
 
-.header-text {
+.background {
+    transform: translateZ(-10px) scale(2);
+}
+
+.foreground {
+    transform: translateZ(-5px) scale(1.5);
+}
+
+.logo {
+    transform: translateZ(-2px) scale(1);
+}
+
+.background,
+.foreground,
+.logo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.logo {
+    object-fit: contain;
+}
+
+section {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 3rem;
+    background-color: #161616;
+    color: white;
+}
+
+/* Header Paralax Styling END*/
+
+section>h1 {
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+section>p {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18pt;
+}
+
+section.odd{
+    background-color: white;
+    padding: 20px;
+}
+
+section.odd>h1{
+    color: #161616;
+    font-size: 24pt;
+}
+
+.slideshow {
+    height: 180px;
+    display: block;
+    max-width: 535px;
+    margin: 0 auto;
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-	display: block;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
 }
 
-.header-text button {
-	margin: 20 0 0;
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 20px 35px;
-    color: white;
-    background-color: var(--text);
-    font-family: 'Exo', sans-serif;
-    font-size: 30;
+.imagemask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 180px;
+    width: 100%;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0) 60%, rgba(255,255,255,1) 100%);
 }
 
-.header-text h1 {
-    font-family: 'Exo', sans-serif;
-    font-size: 100;
-    margin-bottom: 2px;
+.images {
+    background: url(images/partners.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: repeat-x;
+    left: -200%;
+    top: 0;
+    height: 140px;
+    width: 300%;
+    animation: slideshow 10s linear infinite;
 }
 
-.header-text h2 {
-    font-family: 'Comfortaa', cursive;
-    font-size: 30;
+section.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-h2 {
-	font-family: 'Exo', sans-serif;
-    font-size: 60;
-	text-align: center;
-	margin: 0 0 5;
-	color: white;
+.page-bottom {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
-.my-work {
-	position: relative;
-	display: block;
-	margin-top: 0;
-	padding-top: 5px;
-	width: 100%;
-	height: 100%;
-	background-image: linear-gradient(90deg, rgba(2,0,36,0.8) 0%, rgba(36,36,61,0.8) 13%, rgba(0,116,139,0.8) 100%), url("images/mywork/background.jpg");
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.page-bottom>p>a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 13pt;
+    color:white;
+    text-decoration: none;
 }
 
-.my-work h2{
-	margin: 0 0 5;
-	color: white;
+.vimeo {
+    display: flex;
+    padding:0 0 0 0;
+    position:relative;
+    width: 100%;
+    justify-content: center;
 }
 
-.my-work-grid {
-	display: grid;
-	width: 90%;
-	height: 85%;
-	grid-template-columns: repeat(5, 1fr);
-	grid-gap: 15px;
-	grid-template-rows: repeat(4, 1fr);
-	position: relative;
-	margin: auto;
+.footerlogo {
+    width: 40%;
 }
 
-.work-photo {
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	border-radius: 8px;
-	border: solid 4px white;
-	width: 100%;
-	height: 100%;
-}
+  @keyframes slideshow {
+    0%    { left: 0; }
+    100%  { left: -200%; }
+  }
 
-.grid1 {
-	grid-column: 1;
-	grid-row: 1/3;
-	background-image: url("images/mywork/photo1.jpg");
-}
-
-.grid2 {
-	grid-column: 3/6;
-	grid-row: 3/5;
-	background-image: url("images/mywork/photo2.jpg")
-}
-
-.grid3 {
-	grid-column: 2/5;
-	grid-row: 1/3;
-}
-
-.grid4 {
-	grid-column: 5;
-	grid-row: 1/3;
-}
-
-.grid5 {
-	grid-column: 1/3;
-	grid-row: 3/5;
-	background-image: url("images/mywork/photo3.jpg")
-}
-
-.testimonials {
-	position: relative;
-	width: 100%;
-	background-image: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(36,36,61,0.5) 13%, rgba(0,116,139,0.5) 100%), url("images/duntroon.jpg");
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	padding: 10px 0;
-}
-
-.testimonial {
-	position: relative;
-	border: solid 2px white;
-	width: 50%;
-	border-radius: 6px;
-	margin: 20px auto;
-	padding: 10px;
-	background: rgba(0,0,0,0.6);
-}
-
-.testimonial h1 {
-	font-family: 'Exo', sans-serif;
-    font-size: 30;
-	text-align: center;
-	color: white;
-}
-
-.testimonial h2 {
-	font-family: 'Exo', sans-serif;
-    font-size: 20;
-	text-align: center;
-	color: white;
-}
-
-.testimonial p {
-	font-family: 'Comfortaa', cursive;
-    font-size: 20;
-	color: white;
-}
-
-a {
-	text-decoration: none;
-	color: #DFDFDF;
-	font-size: 25;
-}
-
-.contact h2 {
-	font-size: 50;
-}
-
-.arrow {
-	animation: arrow;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate-reverse;
-	border: solid white;
-	margin: 0 0 0 0;
-	border-width: 0 8px 8px 0;
-	display: inline-block;
-	padding: 20px;
-	transform: translate(0%, 100%) rotate(45deg)
-}
-
-@keyframes arrow {
-	from {border-color: rgba(255,255,255,1);}
-	to {border-color: 
-	rgba(255,255,255,.4);}
-}
-
-
-@media only screen and (max-width: 600px) {
-	.header-text h1 {
-		font-size: 40;
-	}
-	
-	.header-text h2 {
-		font-size: 20;
-	}
-	
-	.header-text button{
-		font-size: 20;
-	}
-	
-	.my-work {
-		height: 200%;
-	}
-	
-	.my-work-grid {
-		width: 90%;
-		heigh: 200%;
-		grid-template-columns: repeat(1, 1fr);
-		grid-gap: 15px;
-		grid-template-rows: repeat(4, 1fr);
-	}
-	.grid1 {
-		grid-column: 1;
-		grid-row: 1/3;
-	}
-
-	.grid2 {
-		grid-column: 1;
-		grid-row: 3;
-	}
-
-	.grid3 {
-		display: none;
-	}
-
-	.grid4 {
-		display: none;
-	}
-
-	.grid5 {
-		grid-column: 1;
-		grid-row: 4;
-	}
-	
-	h2 {
-		font-size: 30
-	}
-	
-	.testimonial{
-		width: 90%
-	}
-	
-	.testimonial h1 {
-		font-size: 30
-	}
-	
-	.testimonial p {
-		font-size: 15
-	}
-	
-	a {
-		font-size: 20;
-	}
-	
-	.arrow {
-		padding: 15px;
-		border-width: 0 5px 5px 0;
-	}
-}
+  @media only screen and (max-width: 600px) {
+    section.footer{
+        padding: 10% 0 10%;
+    }
+    .page-bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .page-bottom>p>a{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 8pt;
+        
+        color:white;
+        text-decoration: none;
+    }
+  }
