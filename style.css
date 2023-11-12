@@ -258,6 +258,14 @@ section.footer {
         flex-direction: row;
     }
 
+    #workDiv{
+        grid-template-columns: 100%;
+        width: 100%;
+        }
+        section>p{
+            padding: 0;
+        }
+
 
     section>p{
         padding: 0;
