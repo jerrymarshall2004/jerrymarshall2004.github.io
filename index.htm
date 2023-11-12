@@ -8,7 +8,7 @@
     <script src="script.js"></script>
     <title>Marshall Video Services</title>
 </head>
-<body>
+<body onload="onload()">
     <div class="wrapper">
         <header>
           <img src="images/bannerL0.png" class="background">
@@ -16,18 +16,15 @@
           <img src="images/logoW.png" class="logo">
         </header>
     
-        <section class="odd">
-            <h1>ABOUT</h1>
-            <p>Jerry Marshall is a professional videographer who has been shooting, editing and producing videos for over a decade. Since becoming a professional videographer in 2020, he has produced content for dozens of companies, organizations and events across Southern Ontario, including Ontario Tech University, Market Logics, Duntroon Highlands, and South Georgian Bay Tourism. He has also worked closely with H Visual Media to produce videos for Honda, Blue Mountain Resort, One World Music Festival, the Great Northern Exhibition, and more. He is on track to graduate from Durham College in 2024 with a degree in Video Production, and has a passion for live music videography.</p>
-
-            <!-- <hr> -->
-
-
-            <!-- <h1>HOPE - A Cinematic Short Film</h1>
-            <div class="vimeo"><iframe src="https://player.vimeo.com/video/883623779?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?autoplay=1&loop=1&autopause=0&muted=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="display:block;min-width:60%;aspect-ratio: 21/9;" title="HOPE - A Cinematic Short Film"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-            <h1>Summer 2023</h1>
-            <div class="vimeo"><iframe src="https://player.vimeo.com/video/868981472?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?autoplay=1&loop=1&autopause=0&muted=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="display:block;min-width:60%;aspect-ratio: 21/9;" title="Jerry Marshall - Summer 2023 _ Sony FX3"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> -->
-        
+        <section class="odd" id="infoGrid">
+          <div class="infoSelection" id="selectionRow">
+            <a href="javascript:textSelect(0)"><h1 class="selected" id="selection0">ABOUT</h1></a>
+            <a href="javascript:textSelect(1)"><h1 class="selection" id="selection1">GEAR</h1></a>
+            <!-- <a href="javascript:textSelect(2)"><h1 class="selection" id="selection2">PROJECTS</h1></a> -->
+          </div>
+          <wrapper id="infoTextWrapper">
+            <p id="infoText">Jerry Marshall is a professional videographer who has been shooting, editing and producing videos for over a decade. Since becoming a professional videographer in 2020, he has produced content for dozens of companies, organizations and events across Southern Ontario, including Ontario Tech University, Market Logics, Duntroon Highlands, and South Georgian Bay Tourism. He has also worked closely with H Visual Media to produce videos for Honda, Blue Mountain Resort, One World Music Festival, the Great Northern Exhibition, and more. He is on track to graduate from Durham College in 2024 with a degree in Video Production, and has a passion for live music videography.</p>    
+          </wrapper>
           </section>
           
         <section class="odd">

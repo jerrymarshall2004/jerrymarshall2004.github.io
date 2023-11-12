@@ -55,9 +55,42 @@ section {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    padding: 3rem;
     background-color: #161616;
     color: white;
+}
+
+#infoGrid {
+    display: grid;
+    grid-template-columns: 25% 65%;
+    justify-content: start;
+    align-items: start;
+    grid-template-rows: 1;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18pt;
+    /* transition: height 300ms ease; */
+    min-height: fit-content;
+    overflow: hidden;
+}
+
+#infoTextWrapper{
+    transition: height 300ms ease;
+    min-height: fit-content;
+    padding: 0;
+}
+
+.infoSelection{
+    text-align: center;
+}
+
+.infoSelection>a{
+    text-decoration: none;
+    color: black;
+}
+
+#infoText {
+    min-height: fit-content;
 }
 
 /* Header Paralax Styling END*/
@@ -126,6 +159,7 @@ hr{
 }
 
 section.footer {
+    padding: 3rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -190,6 +224,20 @@ section.footer {
     justify-content: center;
 }
 
+.selected{
+    color: black;
+}
+
+.selection{
+    color: rgb(150, 150, 150);
+    transition: color 80ms;
+}
+
+.selection:hover{
+    color: rgb(100, 100, 100);
+    transition: color 80ms;
+}
+
 .footerlogo {
     width: 40%;
 }
@@ -200,6 +248,7 @@ section.footer {
   }
 
   @media only screen and (max-width: 600px) {
+    
     section.footer{
         padding: 10% 0 10%;
     }
@@ -209,11 +258,6 @@ section.footer {
         flex-direction: row;
     }
 
-    #workDiv{
-    grid-template-columns: 100%;
-    width: 100%;
-
-    }
 
     section>p{
         padding: 0;
@@ -233,4 +277,16 @@ section.footer {
     section>p{
         padding: 0;
     }
+
+    #infoGrid {
+        grid-template-columns: 100%;
+    }
+
+    .infoSelection{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 20px;
+    }
+
   }
