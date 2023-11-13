@@ -49,7 +49,7 @@ infoText = [
     Tripod:\
     <br>\
     SmallRig Freeblazer",
-    "<ul><li>H Visual Media</li><li>Ontario Tech Ridgebacks</li><li>Parkbridge</li><li>Duntroon Highlands Resort</li><li>Main Street Meaford</li><li>Rally Beer</li></ul>"
+    "<ul><li>H Visual Media</li><li>Ontario Tech Ridgebacks</li><li>Parkbridge</li><li>Duntroon Highlands Resort</li><li>Main Street Meaford</li><li>Rally Beer</li><li>Market Logics</li><li>South Georgian Bay Tourism</li><li>Whatz What</li></ul>"
 ]
 
 var selectedButton;
