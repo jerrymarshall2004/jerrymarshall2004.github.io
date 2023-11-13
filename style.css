@@ -224,13 +224,25 @@ section.footer {
     justify-content: center;
 }
 
+.infoSelection>a>h1{
+    font-weight: 600;
+}
+
 .selected{
     color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 26pt;
 }
 
 .selection{
     color: rgb(150, 150, 150);
     transition: color 80ms;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24pt;
 }
 
 .selection:hover{
@@ -279,6 +291,12 @@ section.footer {
         color:white;
         text-decoration: none;
     }
+
+    .infoSelection>a>h1{
+        font-size: 16pt;
+    }
+
+    
   }
 
   @media only screen and (max-width: 850px) {
@@ -297,4 +315,9 @@ section.footer {
         height: 20px;
     }
 
+    .thumbnail {
+        filter: none;
+    }
+
+   
   }
