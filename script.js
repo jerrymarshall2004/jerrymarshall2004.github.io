@@ -14,6 +14,7 @@ xhttp.onreadystatechange = function () {
             a.target = "_blank";
             a.className = "thumbnailLink"
             a.title = titles[i].childNodes[0].nodeValue;
+            a.setAttribute("alt", titles[i].childNodes[0].nodeValue);
             a.href = ("https://www.youtube.com/watch?v=" + videoIDs[i].childNodes[0].nodeValue);
             img.className = "thumbnail";
             img.src = 'images/thumbnails/' + videoIDs[i].childNodes[0].nodeValue + '.webp';
