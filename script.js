@@ -30,12 +30,14 @@ xhttp.send();
 
 
 infoText = [
-    "Jerry Marshall is a professional videographer who has been shooting, editing, and producing videos for over a decade. Since becoming a professional videographer in 2020, he has produced content for dozens of companies, organizations, and events across Southern Ontario, including Ontario Tech University, Market Logics, Duntroon Highlands, and South Georgian Bay Tourism. He has also worked closely with H Visual Media to produce videos for Honda, Blue Mountain Resort, One World Music Festival, the Great Northern Exhibition, and more. He is on track to graduate from Durham College in 2024 with a diploma in Video Production, and has a passion for live music videography.",
+    "Jerry Marshall is a professional videographer who has been shooting, editing, and producing videos for over a decade. Since becoming a professional videographer in 2020, he has produced content for dozens of companies, organizations, and events across Southern Ontario, including Ontario Tech University, Market Logics, Duntroon Highlands, and South Georgian Bay Tourism. He has also worked closely with H Visual Media to produce videos for Honda, Blue Mountain Resort, One World Music Festival, the Great Northern Exhibition, and more.",
     "Camera:\
     <br>\
     Sony FX3\
     <br><br>\
     Lenses:\
+    <br>\
+    Sony 16-25 f/2.8\
     <br>\
     Sigma 50mm f/1.4\
     <br>\
@@ -50,7 +52,18 @@ infoText = [
     Tripod:\
     <br>\
     SmallRig Freeblazer",
-    "<ul><li>Nicky Romero</li><li>H Visual Media</li><li>Ontario Tech Ridgebacks</li><li>Parkbridge</li><li>Duntroon Highlands Resort</li><li>Main Street Meaford</li><li>Rally Beer</li><li>Market Logics</li><li>South Georgian Bay Tourism</li><li>Whatz What</li></ul>"
+    "<ul><li>Beyond Reach Productions</li><li>Dan Halos</li><li>Nicky Romero</li><li>H Visual Media</li><li>Ontario Tech Ridgebacks</li><li>Parkbridge</li><li>Duntroon Highlands Resort</li><li>Main Street Meaford</li><li>Rally Beer</li><li>Market Logics</li><li>South Georgian Bay Tourism</li><li>Whatz What</li></ul>",
+    "Shooting:\
+    <br>\
+    Day Rate: $500 (<12hr day)\
+    <br>\
+    <br>\
+    Editing:\
+    <br>\
+    $35/hr\
+    <br>\
+    <br>\
+    <span class='rateNotice'>(RATES ARE SUBJECT TO CHANGE & NEGOTIATION ON PROJECT BASIS)</span>"
 ]
 
 var selectedButton;
