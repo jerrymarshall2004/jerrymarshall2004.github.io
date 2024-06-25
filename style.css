@@ -12,6 +12,11 @@ body {
 
 /* Header Paralax Styling START*/
 
+.rateNotice{
+    font-size: 12pt;
+}
+
+
 header {
     position: relative;
     display: flex;
