@@ -52,15 +52,20 @@ infoText = [
     Tripod:\
     <br>\
     SmallRig Freeblazer",
-    "<ul><li>Fefe Dobson</li><li>Tyler Shaw</li><li>DevoDLive</li><li>Spoke Entertainment</li><li>Pride Collingwood</li><li>Beyond Reach Productions</li><li>Dan Halos</li><li>Nicky Romero</li><li>H Visual Media</li><li>Ontario Tech Ridgebacks</li><li>Parkbridge</li><li>Duntroon Highlands Resort</li><li>Main Street Meaford</li><li>Rally Beer</li><li>Market Logics</li><li>South Georgian Bay Tourism</li><li>Whatz What</li></ul>",
+    "<ul><li>Après Actif</li><li>Fefe Dobson</li><li>Tyler Shaw</li><li>DevoDLive</li><li>Spoke Entertainment</li><li>Pride Collingwood</li><li>Beyond Reach Productions</li><li>Dan Halos</li><li>Nicky Romero</li><li>H Visual Media</li><li>Ontario Tech Ridgebacks</li><li>Parkbridge</li><li>Duntroon Highlands Resort</li><li>Main Street Meaford</li><li>Rally Beer</li><li>Market Logics</li><li>South Georgian Bay Tourism</li><li>Whatz What</li></ul>",
     "Shooting:\
     <br>\
     Day Rate: $500 (<12hr day)\
     <br>\
     <br>\
+    Equipment Rental:\
+    <br>\
+    Day Rate: $300 (<12hr day)\
+    <br>\
+    <br>\
     Editing:\
     <br>\
-    $35/hr\
+    Hour Rate: $50\
     <br>\
     <br>\
     <span class='rateNotice'>(RATES ARE SUBJECT TO CHANGE & NEGOTIATION ON PROJECT BASIS)</span>"
